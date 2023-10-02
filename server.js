@@ -15,7 +15,7 @@ app.use('/', Routes);
 
 const PORT = process.env.PORT || 8000;
 
-const URI = process.env.MONGODB_URI || 'mongodb+srv://arshadbeg286:Rbmi%401812@cluster0.ibr4grv.mongodb.net/?retryWrites=true&w=majority'
+const URI = process.env.MONGODB_URI || 'mongodb+srv://{Username}:{Password}@cluster0.ibr4grv.mongodb.net/?retryWrites=true&w=majority'
   
 
 Connection();
